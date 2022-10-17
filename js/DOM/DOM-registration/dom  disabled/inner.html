@@ -4,11 +4,12 @@
     </head>
     <body onload="display()">
         <form>
+            <h1>Login Page</h1>
             <label>User Name</label>
-            <input type="text" id="abc" onchange="display()"><br><br>
+            <input type="text" id="abc" oninput=" return display()"><br><br>
 
             <label>Password</label>
-            <input type="password" id="xyz" onchange="display()"><br><br>
+            <input type="password" id="xyz" oninput="return display()"/><br><br>
 
             <button id="pqr" disabled>Login</button>
         </form>
