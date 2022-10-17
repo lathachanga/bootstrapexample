@@ -21,7 +21,7 @@ function validation(){
     if(password==""){
         document.getElementById("klm").innerHTML="Please Enter Password"
     }
-   if(male.checked==false && female.checked==false){
+   if(gen.checked==false && gen.checked==false){
         document.getElementById("are").innerHTML="Please select one"
     }
     if(select==false){
