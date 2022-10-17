@@ -2,9 +2,9 @@ function validation(){
     let user=document.getElementById("name").value ;
     let mob=document.getElementById("mobile").value;
     let email=document.getElementById("mail").value;
-   // let boy=document.getElementById("male").value;
-   // let girl=document.getElementById("female").value;
-   // let select=document.getElementById("select").value
+    let male=document.getElementById("gen").value;
+    let female=document.getElementById("gen").value;
+   let select=document.getElementById("select").value
     if(user==""){
         document.getElementById("abc").innerHTML="Please Enter User Name";
     }
@@ -17,7 +17,7 @@ function validation(){
     if(email==""){
         document.getElementById("pqr").innerHTML="Please Enter Valid Email"
     }
-   if(male.checked==false && female.checked==false){
+   if(gen.checked==false && gen.checked==false){
         document.getElementById("are").innerHTML="Please select one"
     }
     if(select==false){
